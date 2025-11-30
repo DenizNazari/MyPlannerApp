@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlanner.Api", "MyPlanner.Api\MyPlanner.Api.csproj", "{4337F090-384A-4E0D-B49E-12323E8D798A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlanner.Application", "MyPlanner.Application\MyPlanner.Application.csproj", "{219CE185-1107-4363-92E1-64114B5ABD20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlanner.Domain", "MyPlanner.Domain\MyPlanner.Domain.csproj", "{3FDB21FF-9E63-44A3-9DCE-D3FFABCB7CAD}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4337F090-384A-4E0D-B49E-12323E8D798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4337F090-384A-4E0D-B49E-12323E8D798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4337F090-384A-4E0D-B49E-12323E8D798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4337F090-384A-4E0D-B49E-12323E8D798A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{219CE185-1107-4363-92E1-64114B5ABD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{219CE185-1107-4363-92E1-64114B5ABD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219CE185-1107-4363-92E1-64114B5ABD20}.Release|Any CPU.ActiveCfg = Release|Any CPU

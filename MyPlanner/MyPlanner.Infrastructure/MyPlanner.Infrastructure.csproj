@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Auth\" />
+    <Folder Include="Email\" />
+    <Folder Include="DI\" />
+    <Folder Include="Persistence\" />
+  </ItemGroup>
+
 </Project>
