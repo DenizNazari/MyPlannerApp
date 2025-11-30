@@ -10,7 +10,19 @@
     <Folder Include="Auth\" />
     <Folder Include="Email\" />
     <Folder Include="DI\" />
-    <Folder Include="Persistence\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyPlanner.Application\MyPlanner.Application.csproj" />
+    <ProjectReference Include="..\MyPlanner.Domain\MyPlanner.Domain.csproj" />
   </ItemGroup>
 
 </Project>
