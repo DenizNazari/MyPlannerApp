@@ -1,6 +1,7 @@
 ﻿using MyPlanner.Domain.Enums;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,8 @@ namespace MyPlanner.Domain.Entities
         public User User { get; set; }
 
         public string Name { get; set; }
-        public string Color { get; set; }
+        public Guid? ColorId { get; set; }
+        public Color Color { get; set; }
         public string Icon { get; set; }
         public bool IsSystem { get; set; }
         public int Order { get; set; }
